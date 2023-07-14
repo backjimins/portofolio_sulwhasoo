@@ -1,0 +1,333 @@
+@charset "utf-8";
+@import url('fonts.css');
+html {font-size: 16px;}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+#wrap {}
+.inner {position: relative; max-width: 1440px; margin: 0 auto; }
+section {padding: 100px 0 50px;}
+/* header */
+header .menuber {
+  color: aliceblue;
+  display: none;
+}
+header {position: absolute; top: 20px; left:0; width: 100%; z-index: 5;} 
+.header_1 {position: relative;}
+header .logo {text-align: center;}
+header .logo img {max-width: 166px;}
+header .langGroup {
+    position: absolute;
+    top: 10px; left: 0;
+    color: aliceblue;
+}
+header .langGroup .langlist,.list{
+  display: none;
+}
+header .header_side {
+    position: absolute;
+    top: 10px; right: 0;
+    color: aliceblue;
+}
+header  .header_side a {
+    border-right: 1px solid #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header  .header_side a:last-child {
+    border-right: none;
+}
+header .gnb {
+    position: relative;
+    width: 1000px;
+    margin: 25px auto;
+}
+header .gnb .menu {margin-left: -35px;}
+header .gnb .menu li {
+    float: left;
+    width: calc(100%/7 - 35px);
+    margin: 0 0 0 35px
+}
+header .gnb .menu > li > a {
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+}
+
+header .gnb .menu li .menu_box, .menu_box2 {
+    display: none;
+}
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* renew */
+  .renew h1 {
+    font-weight: 600;
+    font-size: 1.625em;
+  }
+  .renew .swiper.productList {
+    position: relative; 
+    height: 55vh
+  }
+  .renew .swiper.productList .renew_list{
+    position: absolute;
+    bottom: 50px;
+  }
+  .renew .swiper.productList .renew_list .renew_text{
+    font-size: 0.938em;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  .renew .swiper.productList .renew_list .renew_text2 {
+    font-size: 0.750em;
+    color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+  }
+  .renew .swiper.productList .renew_list .renew_text3 {
+    font-size: 0.813em;
+
+  }
+  .renew .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 120px;
+  }
+  .swiper-pagination {
+    margin-bottom: -5px;
+  }
+
+  /* renew_best */
+  .renew_best {
+
+  }
+  .renew_best .best_img { 
+    width: 1440px; 
+    height: 540px;
+    margin: 0 auto;
+    background: url(../img/renew_bg.jpg) no-repeat center/cover;
+    overflow: hidden;
+    position: relative;
+  }
+  .renew_best .best_text {
+    position: absolute;
+    padding-left: 100px;
+    padding-bottom: 150px;
+    bottom: 0;
+  }
+  .renew_best .best_text h2 {
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .renew_best .best_text .text {
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  .renew_best .best_text .best_more{
+    border: 1px solid #000000;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    font-size: 0.875em;
+  }
+  .renew_seezn{
+    margin-top: -60px;
+  }
+  .renew_seezn h2 {
+    font-weight: 600;
+    font-size: 1.625em;
+  }
+  .renew_seezn .seezn_box_group {
+    margin-top: 30px;
+  }
+  .renew_seezn .seezn_box_group li{
+    float: left;
+
+  }
+
+  .seezn_box1 {
+    width: 342px; height: 522px;
+    background: url(../img/CGR-Serum-EX-50ml.png)no-repeat center/cover;
+    background-size: 100%;
+    background-position: top;
+    position: relative;
+    background-color: #ededed;
+    margin-right: 24px;
+  }
+  .seezn_box2 {
+    width: 708px; height: 522px;
+    background: url(../img/cream_serum.jpg)no-repeat center/cover;
+    position: relative;
+    background-color: #ededed;
+    margin-right: 24px;
+  }
+  .seezn_box3 {
+    width: 342px; height: 522px;
+    background: url(../img/CGR-Serum-EX-50ml.png)no-repeat center/cover;
+    background-size: 100%;
+    background-position: top;
+    position: relative;
+    background-color: #ededed;
+  }
+  .seezn_text {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 30px;
+  }
+  .seezn_text .text2 {
+    margin-bottom: 10px;
+    font-size: 1.375em;
+    font-weight: 900;
+  }
+  .seezn_text .text3 {
+    font-size: 0.875em;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .seezn_text .text4 {
+    font-size:1.000em;
+    margin-bottom: 65px;
+  }
+  .seezn_text2 {
+    position: absolute;
+    bottom: 40px;
+    padding-left: 70px;
+  }
+  .seezn_text2 .text2 {
+    margin-bottom: 15px;
+    font-size: 1.625em;
+    font-weight: 900;
+  }
+  .seezn_text2 .text3 {
+    font-size: 1.000em;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+  }
+  .seezn_text3 {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 30px;
+  }
+  .seezn_text3 .text2 {
+    margin-bottom: 10px;
+    font-size: 1.375em;
+    font-weight: 900;
+  }
+  .seezn_text3 .text3 {
+    font-size: 0.875em;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .seezn_text3 .text4 {
+    font-size:1.000em;
+    margin-bottom: 65px;
+  }
+
+  .offline{
+    margin-top: 50px;
+  }
+  .offline .offline_shop {
+
+  }
+  .offline .offline_shop li{
+    float: left;
+    width: calc(100%/2);
+    text-align: center;
+  }
+  .offline .offline_shop .offline_text {
+    text-align: center;
+    font-size: 1.375em;
+    margin-top: 20px;
+    font-weight: 900;
+  }
+  .offline .offline_shop .offline_text2 {
+    text-align: center;
+    border: 1px solid #000000;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+  }
+
+  .instagram h2{
+    font-weight: 900;
+    font-size: 1.625em;
+  }
+  .instagram .swiper.productList {
+    position: relative; 
+  }
+  .instagram .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .instagram .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+  }
+
+  .instagram .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  footer {
+    
+    color: rgba(0, 0, 0, 0.5);
+  }
+  footer .footer_up {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 10px;
+  }
+
+  footer .footer_up .footer_menu {float: left;}
+  footer .footer_up .footer_menu li {
+    float: left;
+    margin: 0 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding-right: 30px;
+  }
+  footer .footer_up .footer_menu li:first-child {margin-left: 0;}
+
+  footer .footer_up .footer_menu2 {float: right;}
+  footer .footer_up .footer_menu2 li{
+    float: left;
+    margin: 0 6px;
+  }
+  footer .footer_up .footer_menu2 li:first-child img{
+    width: 42px;
+    height: 30px;
+  }
+  
+
+  footer  .footer_down {
+    margin-top: 30px;
+  }
+  footer .footer_down .footer_text{
+
+  }
+  footer  .footer_down .footer_text2{
+    margin-top: 10px;
+  }
